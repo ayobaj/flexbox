@@ -1,0 +1,87 @@
+body{
+    background-color: rebeccapurple;
+    position: relative;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-transform: uppercase;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    position:fixed;
+    background-color: pink;
+    align-items: center;
+    padding: 20px 30px;
+    z-index: 1;
+}
+#logo:hover{
+    color: brown;
+    cursor: pointer;
+    
+}
+.navcon{    
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.linkContainer{
+    display: flex;
+    gap: 50px;
+
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: antiquewhite;
+}
+a:hover{
+    color: brown;
+}
+button{
+    display: flex;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+button:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* background-color: burlywood; */
+    height: 100vh;
+
+}
+aside{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: fixed;
+    top: 100px;
+    left: 40px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+.para{
+    margin-top: 40px;
+    margin-left: 70px;
+    display: flex;
+    font-size: 34px;
+    padding-top: 30px;
+}
